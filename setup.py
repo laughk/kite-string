@@ -10,7 +10,7 @@ setup(
     version=get_version(),
     packages=find_packages(),
     include_package_data=True,
-    include_requires=[
+    install_requires=[
         'requests',
         'Click',
     ],
