@@ -18,5 +18,8 @@ setup(
         [console_scripts]
         kite=kite.cli:main
     ''',
+    author = 'Kei Iwasaki',
+    author_email = 'me@laughk.org',
+
 )
 
