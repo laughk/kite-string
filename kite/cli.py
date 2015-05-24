@@ -2,9 +2,9 @@
 # -*- coding:utf-8 -*-
 
 import click
-from .takosan import Tako
-from .version import get_version
-from .help_messages import get_help_message
+from kite.takosan import Tako
+from kite.version import get_version
+from kite.help_messages import get_help_message
 
 
 @click.command(context_settings={'help_option_names':['-h', '--help']})
@@ -68,8 +68,8 @@ def main(takosan_url, channels,
         'text'         : text,
         'image_url'    : image_url,
     }
-    tako = takosan.Tako(takosan_url, channels, payload_base)
-    tako.kite_flying()
+    tako = Tako(takosan_url, channels, payload_base)
+    tako.flying()
 
 if __name__ == '__main__':
     main()
