@@ -1,7 +1,7 @@
 kite-string
 ===================
 
-kite-stgin(凧糸) is Python(2.6-3.4) command-line HTTP request wrapper for `takosan <https://github.com/kentaro/takosan>`_ .
+kite-string(凧糸) is Python(2.6-3.4) command-line HTTP request wrapper for `takosan <https://github.com/kentaro/takosan>`_ .
 
 Installing
 -----------------
