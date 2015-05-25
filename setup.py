@@ -6,7 +6,7 @@ from kite.version import get_version
 
 setup(
 
-    name='kite',
+    name='kite-string',
     version=get_version(),
     packages=find_packages(),
     include_package_data=True,
@@ -18,6 +18,7 @@ setup(
         [console_scripts]
         kite=kite.cli:main
     ''',
+    url='https://github.com/laughk/kite-string',
     author = 'Kei Iwasaki',
     author_email = 'me@laughk.org',
 
