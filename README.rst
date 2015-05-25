@@ -1,7 +1,7 @@
-Kite
+kite-string
 ===================
 
-Kite(凧, タコ) is Python(3.4) command-line HTTP request wrapper for `takosan <https://github.com/kentaro/takosan>`_ .
+kite-stgin(凧糸) is Python(2.6-3.4) command-line HTTP request wrapper for `takosan <https://github.com/kentaro/takosan>`_ .
 
 Installing
 -----------------
@@ -9,9 +9,17 @@ Installing
 For Users
 ~~~~~~~~~~~~~~~
 
+from PyPI
+
 .. sourcecode:: bash
 
-    $ pip install git+https://github.com/laughk/kite.git
+    $ pip install kite-string
+
+from Github
+
+.. sourcecode:: bash
+
+    $ pip install git+https://github.com/laughk/kite-string.git
 
 
 Usage
@@ -52,9 +60,11 @@ Usage
                           following formats: GIF, JPEG, PNG, and BMP.)
       -h, --help          Show this message and exit.
 
+
 example
 ~~~~~~~~~
 
+Simple Post
 
 .. sourcecode:: bash
 
@@ -65,3 +75,15 @@ example
     > --text 'hello' \
     > http://takosan.example.com:4979
 
+
+Multi channel Post
+
+.. sourcecode:: bash
+
+    $ kite \
+    > --name 'laugh_k' \
+    > --icon 'https://pbs.twimg.com/profile_images/498392311491883010/If0DOLYq.jpeg' \
+    > --channel '#notice_channel1' \
+    > --channel '#notice_channel2' \
+    > --text 'hello' \
+    > http://takosan.example.com:4979
