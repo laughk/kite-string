@@ -21,6 +21,13 @@ setup(
     url='https://github.com/laughk/kite-string',
     author = 'Kei Iwasaki',
     author_email = 'me@laughk.org',
+    license='MIT License',
+    classifiers=[
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 2.6',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+    ]
 
 )
 
