@@ -2,4 +2,4 @@
 # -*- coding:utf-8 -*-
 
 def get_version():
-    return '0.0.0.dev4'
+    return '0.0.0.dev5'
