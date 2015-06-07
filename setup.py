@@ -7,6 +7,7 @@ from kite.version import get_version
 setup(
 
     name='kite-string',
+    description='command-line HTTP request wrapper for takosan .',
     version=get_version(),
     packages=find_packages(),
     include_package_data=True,
@@ -27,7 +28,7 @@ setup(
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-    ]
+    ],
 
 )
 
